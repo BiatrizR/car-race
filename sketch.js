@@ -7,10 +7,11 @@ var cars = [];
 
 //BP
 function preload() {
+  //apenas um ponto pra localizar a pasta certa/ subindo apenas uma pasta
   backgroundImage = loadImage("./assets/background.png");
-  car1_img = loadImage("../assets/car1.png");
-  car2_img = loadImage("../assets/car2.png");
-  track = loadImage("../assets/track.jpg");
+  car1_img = loadImage("./assets/car1.png");
+  car2_img = loadImage("./assets/car2.png");
+  track = loadImage("./assets/track.jpg");
 }
 
 //BP
