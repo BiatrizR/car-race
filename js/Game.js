@@ -45,9 +45,10 @@ class Game {
     this.handleElements();
     Player.getPlayersInfo();
 
-if(allPlayers !== undefinied){
+    //palavra undefined estava incorreta
+if(allPlayers !== undefined){
   image(track, 0, -height * 5, width, height *6);
-}
+//chave do if tem que pgar o loop
 
 var index = 0
 for (var plr in allPlayers){
@@ -65,6 +66,7 @@ for (var plr in allPlayers){
     player.update()
    }
    
+}
       drawSprites();
     }
   }
